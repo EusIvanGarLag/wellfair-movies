@@ -1,0 +1,61 @@
+# ==========================================
+# 1. ARCHIVOS Y CARPETAS DE SISTEMA (OS)
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ==========================================
+# 2. EDITOR Y IDEs (VS Code, Eclipse, IntelliJ)
+# ==========================================
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+
+# ==========================================
+# 3. FRONTEND (Angular / Node.js)
+# ==========================================
+**/node_modules/
+**/.angular/
+**/dist/
+**/tmp/
+**/out-tsc/
+**/bazel-out/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ==========================================
+# 4. BACKEND (Java / Maven / Spring Boot)
+# ==========================================
+**/target/
+**/*.class
+**/*.jar
+**/*.war
+**/*.ear
+**/*.zip
+**/*.tar.gz
+**/*.rar
+
+# Maven Wrapper (opcional ignorar si no lo usas)
+.mvn/
+mvnw
+mvnw.cmd
+
+# ==========================================
+# 5. CREDENCIALES Y VARIABLES DE ENTORNO
+# ==========================================
+# Si llegas a crear un application-local.properties o .env con tu API Token
+**/*.env
+**/*.local
+**/application-local.properties
