@@ -50,22 +50,3 @@ Asegúrate de tener instalado en tu sistema:
 server.port=8080
 tmdb.api.url=[https://api.themoviedb.org/3](https://api.themoviedb.org/3)
 tmdb.api.token=TU_BEARER_TOKEN_AQUI
-
-
-🚀 Instalación y Ejecución
-1. Iniciar el Backend (Spring Boot)
-En tu terminal, navega a la carpeta del backend y ejecuta:
-
-Bash
-cd backend/movies-backend
-./mvnw spring-boot:run
-El servidor proxy se iniciará en http://localhost:8080.
-
-2. Iniciar el Frontend (Angular)
-En otra ventana de la terminal, navega a la carpeta del frontend:
-
-Bash
-cd frontend
-npm install
-ng serve
-La aplicación web estará disponible en http://localhost:4200.
