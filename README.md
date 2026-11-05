@@ -50,3 +50,35 @@ Asegúrate de tener instalado en tu sistema:
 server.port=8080
 tmdb.api.url=[https://api.themoviedb.org/3](https://api.themoviedb.org/3)
 tmdb.api.token=TU_BEARER_TOKEN_AQUI
+
+🚀 Instalación y Ejecución del Proyecto
+Sigue estos pasos en orden para iniciar tanto el servidor Backend como la aplicación Frontend.
+
+1. Ejecución del Backend (Java Spring Boot 3)
+Abre tu terminal en la raíz del proyecto y navega a la carpeta del backend:
+
+Bash
+cd backend/movies-backend
+Ejecuta el servidor utilizando el wrapper de Maven incorporado:
+
+En Linux / macOS:
+
+Bash
+./mvnw spring-boot:run
+En Windows (CMD / PowerShell):
+
+PowerShell
+.\mvnw.cmd spring-boot:run
+🟢 El servidor backend se iniciará en: http://localhost:8080/api/v1/movies
+
+2. Ejecución del Frontend (Angular 17+)
+Abre una nueva ventana de la terminal, navega a la carpeta del frontend e instala las dependencias de Node:
+
+Bash
+cd frontend
+npm install
+Inicia el servidor de desarrollo de Angular:
+
+Bash
+ng serve
+🟢 Abre tu navegador e ingresa a: http://localhost:4200
